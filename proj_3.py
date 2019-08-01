@@ -23,7 +23,7 @@ from IPython.display import display
 
 years = np.arange(1964, 2015, 1)
 
-exdiv = pd.read_csv('ED_timeseries.csv', dtype = object)
+exdiv = pd.read_csv('ED_timeSeries.csv', dtype = object)
 Ind_pop = pd.read_csv('API_IND_DS2_en_csv_v2_10515238.csv', header = 2, dtype = object)
 expqual = pd.read_csv('EQ_timeSeries_1.csv', header = 0, dtype = {'Country Name':object, 'Country Code':object, 'Indicator Name':object, 'Indicator Code':object, 'Product Name':object, 'Product Code':object, 'Attribute':object, '1963':np.float64, '1964':np.float64, '1965':np.float64, '1966':np.float64, '1967':np.float64, '1968':np.float64, '1969':np.float64, '1970':np.float64, '1971':np.float64, '1972':np.float64, '1973':np.float64, '1974':np.float64, '1975':np.float64, '1976':np.float64, '1977':np.float64, '1978':np.float64, '1979':np.float64, '1980':np.float64, '1981':np.float64, '1982':np.float64, '1983':np.float64, '1984':np.float64, '1985':np.float64, '1986':np.float64, '1987':np.float64, '1988':np.float64, '1989':np.float64, '1990':np.float64, '1991':np.float64, '1992':np.float64, '1993':np.float64, '1994':np.float64, '1995':np.float64, '1996':np.float64, '1997':np.float64, '1998':np.float64, '1999':np.float64, '2000':np.float64, '2001':np.float64, '2002':np.float64, '2003':np.float64, '2004':np.float64, '2005':np.float64, '2006':np.float64, '2007':np.float64, '2008':np.float64, '2009':np.float64, '2010':np.float64, '2011':np.float64, '2012':np.float64, '2013':np.float64, '2014':np.float64})
 can_pop = pd.read_csv("API_CAN_DS2_en_csv_v2_10516745.csv", header = 2, dtype = object)
