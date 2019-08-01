@@ -24,3 +24,5 @@ https://data.worldbank.org/country/india
 
 To run this file requires the Numpy, Pandas, Matplotlib, and Sci-kit learn libraries. 
 
+To run open "proj3.py" using an IDE of choice or as an executable through the command line for Linux users.
+
