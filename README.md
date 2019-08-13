@@ -1,5 +1,7 @@
 # Python-data-analysis-sample
-A short sample code to show my ability to use common python libraries related to data analysis (such as pandas).
+A short sample code using common python libraries related to data analysis (such as pandas). This is intended merely to be a short proof of competence for potential employers and not a serious endeavor to study economics.
+
+For those who want to simply see what the code and outputs look like there is an HTML file that should load in any browser labeled as proj
 
 All data is taken from the world bank and the IMF. 
 
